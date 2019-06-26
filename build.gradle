@@ -1,6 +1,24 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.0.0'
+    }
+}
+
 plugins {
     id 'java'
-    id 'war'
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.illuha.netty1.BootstrapApp'
+        )
+    }
 }
 
 group 'com.illuha'

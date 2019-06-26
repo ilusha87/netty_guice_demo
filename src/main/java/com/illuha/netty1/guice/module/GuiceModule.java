@@ -1,15 +1,15 @@
 package com.illuha.netty1.guice.module;
 
-import com.google.inject.*;
+import com.google.inject.AbstractModule;
+import com.google.inject.Provides;
+import com.google.inject.Singleton;
 import com.illuha.netty1.dao.ApplicationDao;
 import com.illuha.netty1.netty.HttpServerHandler;
 import com.illuha.netty1.netty.HttpServerInitializer;
 import com.illuha.netty1.repository.CustomerRepository;
 import io.netty.channel.ChannelInboundHandler;
-import io.netty.channel.ChannelInitializer;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
-import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.ssl.SslContext;

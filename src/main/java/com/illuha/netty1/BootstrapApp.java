@@ -3,9 +3,7 @@ package com.illuha.netty1;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.illuha.netty1.guice.module.GuiceModule;
-import com.illuha.netty1.dao.ApplicationDao;
 import com.illuha.netty1.netty.HttpServer;
-import com.illuha.netty1.repository.CustomerRepository;
 
 public class BootstrapApp {
 

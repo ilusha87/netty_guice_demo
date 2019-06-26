@@ -1,7 +1,6 @@
 package com.illuha.netty1.repository;
 
 import com.google.inject.Inject;
-import com.google.inject.Provider;
 import com.illuha.netty1.dao.ApplicationDao;
 import com.illuha.netty1.model.Customer;
 

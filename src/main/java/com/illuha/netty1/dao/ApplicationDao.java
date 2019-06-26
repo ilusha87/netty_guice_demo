@@ -1,8 +1,9 @@
 package com.illuha.netty1.dao;
 
-import com.google.inject.Inject;
-
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class ApplicationDao {
     private Connection connection;

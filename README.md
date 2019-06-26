@@ -1,6 +1,6 @@
 # netty_guice_demo
 
-This simiple project aimed to test standard Netty HTTP server functinality along with Guice as a DI framework.<br>
+This simple project aimed to test standard Netty HTTP server functinality along with Guice as a DI framework.<br>
 Netty HTTP server receives income POST request with Customer entity and saves it to the database. 
 Then prints out all records from Customer database table.<br><br>
 Gradle was chosen as as automation tool.<br>

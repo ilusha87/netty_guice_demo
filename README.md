@@ -12,7 +12,7 @@ com.illuha.netty1.BootstrapApp#main
 then make a POST request to localhost:8080 using any HTTP client tool (Postman, etc.). Write in the POST body:
 <pre>
 {"id":"1",
-	"name": "Customer1"
+ "name": "Customer1"
 }
 </pre>
 Of course, use header:
